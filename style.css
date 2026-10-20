@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container { max-width: 700px; margin: auto; }
+h1 { margin-bottom: 15px; }
+
+button {
+    padding: 12px 24px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quiz-link { background-color: #e5e5e5; }
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+body.dark .quiz-link {
+    background-color: #444;
+    color: white;
+}
